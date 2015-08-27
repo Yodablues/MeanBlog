@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('tnmcApp')
+angular.module('meanBlog')
   .controller('PostsCtrl', function ($scope, $http, Auth, Post, socket) {
 
     $scope.posts = Post.query();

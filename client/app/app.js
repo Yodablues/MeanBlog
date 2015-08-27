@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('tnmcApp', [
+angular.module('meanBlog', [
   'ngCookies',
   'ngResource',
   'ngSanitize',

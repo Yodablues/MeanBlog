@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('tnmcApp')
+angular.module('meanBlog')
   .controller('NavbarCtrl', function ($scope, $location, Auth) {
     $scope.menu = [
       {

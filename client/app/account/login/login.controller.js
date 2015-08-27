@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('tnmcApp')
+angular.module('meanBlog')
   .controller('LoginCtrl', function ($scope, Auth, $location) {
     $scope.user = {};
     $scope.errors = {};

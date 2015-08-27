@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('tnmcApp')
+angular.module('meanBlog')
   .factory('Post', function ($resource) {
     return $resource('/api/posts/:id/:controller', {
       id: '@_id'

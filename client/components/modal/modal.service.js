@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('tnmcApp')
+angular.module('meanBlog')
   .factory('Modal', function ($rootScope, $modal) {
     /**
      * Opens a modal

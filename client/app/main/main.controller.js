@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('tnmcApp')
+angular.module('meanBlog')
   .controller('MainCtrl', function ($scope, $http, socket) {
     $scope.posts = [];
 
